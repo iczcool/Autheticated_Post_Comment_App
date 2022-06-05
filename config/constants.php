@@ -1,0 +1,4 @@
+<?php 
+	$AppName = 'Jokative';
+	$Directory = '';
+?>

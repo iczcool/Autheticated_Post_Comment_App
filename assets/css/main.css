@@ -1,0 +1,210 @@
+ html
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.col{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    background: cyan;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navigation .navbar-default{
+    background-color: lightgreen;
+    /*text-align:right;*/
+    width: 100%;
+    padding: 0 10px;
+    padding-left: 40px;
+    margin:0;
+}
+.navigation nav{
+    margin: 0;
+    padding: 0;
+}
+.navigation nav .nav-link{
+  color:#000;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.content{
+    margin: 0;
+    padding: 0;
+    padding-top:40px;
+    padding-bottom: 100px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+
+.new-post, .old-post{
+    min-height: 600px;
+    margin: 0;
+    padding: 10px;
+    padding: 10px 40px;
+}
+
+/*****************/
+/*** POST AREA ***/
+/*****************/
+.post-area{
+}
+.post-area .post-title{
+    margin: 0;
+    padding: 0;
+    font-size:2rem;
+}
+.post-area .post-image{
+    /*background: lightcoral;*/
+    /*width: auto;*/
+    /*height: 400px;*/
+    margin: 0;
+    padding: 0;
+    border-radius: 6px;
+    text-align: center;
+}
+.post-area .post-image img{
+    width: auto;
+    height: 80vh;
+    border: 2px solid lightgrey;
+    border-radius: 6px;
+}
+
+.post-area .post-description{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    border:0px solid lightgrey;
+}
+.post-area .post-date{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+.post-area .post-date div:nth-child(2){
+    text-align: right;
+}
+
+.old-post{
+    padding-top: 40px;
+}
+.recent-post{
+    padding: 0 20px;
+}
+
+
+/********************/
+/*   COMMENT AREA   */
+/********************/
+.comment-area{
+}
+.comment-area h3{
+    font-weight: bold;
+    margin-top: 20px;
+} 
+.comment-thread{
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+}
+.comment-item-image{
+    margin: 0;
+    padding: 10px;
+}
+.comment-item-image .image{
+    width: 56px;
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    background: lightgrey;
+
+}
+.comment-item-body{
+    padding: 10px 40px;
+}
+
+.form-area{
+    margin-top: 40px;
+}
+.form-area form{
+    margin: 0 10px;
+}
+textarea{
+    min-height: 100px;
+}
+button{
+    text-align: right;
+    width: 100%;
+}
+
+
+/********************/
+/*      FOOTER      */
+/********************/
+.footer{
+    position:absolute;
+    background: cyan;
+    margin: 0;
+    padding: 0;
+    bottom:0;
+    width:100%;
+}
+.footer p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+/********************************/
+/*  Typical Device Breakpoints  */
+/********************************/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .old-post{
+        background: green;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
