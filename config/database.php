@@ -3,8 +3,8 @@
 		
 		private $servername = "localhost";
         private $username = "root";
-        private $password = "goldbook";
-        private $database = "post_comment";
+        private $password = "password_here";
+        private $database = "database_name";
         public  $con;
 
         // Database Connection 
