@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <?php echo '<link rel="stylesheet" type="text/css" href="/Codebase/Portfolio/'.$AppName.'/assets/css/main.css">'?>
+  <?php echo '<link rel="stylesheet" type="text/css" href="/'.$AppName.'/assets/css/main.css">'?>
   <script src="https://kit.fontawesome.com/3d76f8d0a5.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -76,7 +76,7 @@
     <div class="col col-lg-12 navigation">
       <?php 
         echo'<div class="dropdown top-nav">
-              <a class="navbar-brand" href="/Codebase/Portfolio/'.$AppName.'/views/post-views/index.php">Jokative</a>
+              <a class="navbar-brand" href="/'.$AppName.'/views/post-views/index.php">Jokative</a>
               <span>
                 <a class="test" href="#0">
                   <i class="fas fa-envelope"></i>
@@ -86,9 +86,9 @@
                   <i class="user fas fa-user"></i> User\'s Name
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="">
-                  <li><a class="dropdown-item" href="/Codebase/Portfolio/'.$AppName.'/views/post-views/dashboard.php"><i class=\'fas fa-edit\'></i>&nbsp;&nbsp;Edit</a></li>   
+                  <li><a class="dropdown-item" href="/'.$AppName.'/views/post-views/dashboard.php"><i class=\'fas fa-edit\'></i>&nbsp;&nbsp;Edit</a></li>   
                   <li><a class="dropdown-item" href="#"><i class="fa fa-user"></i>&nbsp;&nbsp;Profile</a></li>
-                  <li><a class="dropdown-item" href="/Codebase/Portfolio/'.$AppName.'/views/user-views/logout.php"><i class="fas fa-power-off"></i>&nbsp;&nbsp;Logout</a></li>
+                  <li><a class="dropdown-item" href="/'.$AppName.'/views/user-views/logout.php"><i class="fas fa-power-off"></i>&nbsp;&nbsp;Logout</a></li>
                 </ul>
               </span>
             </div>'
